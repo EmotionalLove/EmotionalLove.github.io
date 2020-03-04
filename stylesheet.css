@@ -1,0 +1,108 @@
+.text {
+    font-family: "Segoe UI Light", Arial, Helvetica, sans-serif;
+}
+
+.city-container {
+    background: #000000AA;
+    border-radius: 10px;
+    position: absolute;
+    user-select: none;
+}
+
+#city {
+    font-size: 40px;
+    color: white;
+    padding: 20px 10px 10px 10px;
+    vertical-align: middle;
+    margin: auto;
+    text-align: center;
+}
+
+#temp {
+    color: white;
+    padding: 20px 10px 10px 10px;
+    vertical-align: middle;
+    margin: auto;
+    text-align: center;
+}
+
+.forecast-container {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    position: fixed;
+    background: #000000AA;
+    width: 99%;
+    top: 85%;
+    border-radius: 5px;
+}
+
+.forecast {
+    flex: 1;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+}
+
+.forecast-today {
+    text-align: center;
+    flex: 1.5;
+    font-weight: bold;
+    padding: 5px 5px 5px 5px;
+}
+
+.forecast:hover {
+    background: #00000055;
+}
+
+.forecast-today:hover {
+    background: #00000055;
+}
+
+/*#day1 #day2 #day3 #day4 #day5 {*/
+/*    padding: 5px 5px 5px 5px;*/
+/*}*/
+
+
+#current-icon {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    height: 100px;
+    width: 100px;
+    vertical-align: middle;
+    padding: 10px 10px 10px 10px;
+}
+
+.forecast-icon {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    height: 65px;
+    width: 65px;
+    vertical-align: middle;
+    padding: 5px 5px 5px 5px;
+}
+
+.field {
+    background: #00000000;
+    border: 0;
+    font-size: 40px;
+    color: white;
+    padding: 20px 20px 20px 20px;
+    vertical-align: middle;
+    margin: auto;
+    text-align: center;
+    width: 300px;
+}
+
+.error-field {
+    color: red;
+}
+
+.glowing {
+    border: 2px solid #fab;
+    filter: blur(2px);
+}
+
+.glowingOut {
+    border: 2px solid #fab;
+    filter: blur(1px);
+}
