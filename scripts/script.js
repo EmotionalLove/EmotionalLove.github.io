@@ -17,7 +17,7 @@ const snowing = "img/snowing.png";
 const sunny = "img/sunny.png";
 const thunderstorm = "img/thunderstorm.png";
 // api stuffs
-const apiKey = "a38840a0393d883471999cf80d4d715c";
+const apiKey = "a38840a0393d883471999cf80d4d715c"; // don't abuse me pls github visitors aaaaäAAaÁ
 
 let forecast = [];
 let city = "Salt Lake City";
@@ -29,6 +29,7 @@ $("document").ready(() => {
     });
     getWeather();
     getForecast();
+    $("#title").val(`Weather for ${city}`);
     $(".city-container").draggable();
 });
 
